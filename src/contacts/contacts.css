@@ -1,0 +1,45 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+img {
+
+    width: 25px;
+    height: auto;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+input[value] {
+    font-family: 'RobotoMono', sans-serif;
+    color: rgb(119, 119, 119);
+}
+
+.contacts-container {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fffefb;
+    text-align: left;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 1fr 1fr;
+    color: #221320;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.contact:hover {
+    background-color: #29b10b10;
+}
+
+
